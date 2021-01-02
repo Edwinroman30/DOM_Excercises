@@ -1,0 +1,74 @@
+.scroll_btn{
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--main-color);
+
+    border-radius: 50%;
+    right: 7rem;
+    bottom: 20px;
+    z-index: 1000;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 800;
+
+    transition: 0.5s all ease-out;
+
+}
+
+.hide_scroll{
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.scroll_btn:hover{
+    font-weight: bold;
+    color: var(--main-color);
+    background-color: var(--second-color );
+}
+
+
+
+/*Dark Theme*/
+
+
+.btn_theme_dark{
+    position: fixed;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--second-color);
+
+    border-radius: 50%;
+    left: 30px;
+    bottom: 20px;
+    z-index: 1000;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 800;
+
+    transition: 0.5s all ease-out;
+
+}
+
+
+.btn_theme_dark:hover{
+    font-weight: bold;
+    color: var(--main-color);
+    background-color: var(--main-color );
+}
+
+
+.dark_bk{
+    color: var(--main-color);
+    background-color: var(--second-color);
+}
+

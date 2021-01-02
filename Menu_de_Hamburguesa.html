@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-darkTheme>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Hamburguesa</title>
+    <link rel="stylesheet" href="./css/manuHamburgues.css">
+    <link rel="stylesheet" href="./css/reloj_y_alarma.css">
+    <link href="./hamburgers-master/dist/hamburgers.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/eventos_teclado.css">
+    <link rel="stylesheet" href="./css/buttom_scroll.css">
+    <link rel="stylesheet" href="./css/responsive_tester.css">
+    <link rel="stylesheet" href="./css/info_net_status.css">
+</head>
+<body data-darkTheme>
+
+    <div class="container">
+        <header class="header">Ejercicios del DOM</header>
+
+        <section class="section" id="seccion1">
+            <h2>Reloj Digital y Alarma Sonora</h2>
+
+            <div id="reloj" class="reloj"></div>
+            <audio src="./assets/alarma_2.mp3" id="audiotag" loop></audio>
+            <div class="btn_controls">
+                <button id="activar_reloj" class="btn" type="button">Iniciar Reloj</button>
+                <button id="desactivar_reloj" class="btn" type="button">Desactivar Reloj</button>
+                <button id="activar_Alarma" class="btn" type="button">Iniciar Alarma</button>
+                <button id="desactivar_Alarma"  class="btn" type="button">Desactivar Alarma</button>
+            </div>
+        </section>
+
+        <section class="section" id="seccion2">
+            <h2>Eventos del Teclado</h2>
+                <div class="stage" id="stage">
+                    <div class="circle" id="circle"></div>
+                </div>
+            <!-- 
+                <script>
+                    document.addEventListener("keydown", (e) => {
+                        console.log(e)
+                    })
+                </script> -->
+        </section>
+
+        <section class="section" id="seccion3" style="justify-content: center;">
+            <h2>Cuenta Regresiva</h2>
+            <div id="goalClock" class="goalClock"></div>
+            <div id="regresiveClock" class=""></div>
+        </section>
+
+        <section class="section" id="seccion4">
+            <h2>Responsible Responsive Design</h2>
+            <div id="youtube"></div>
+            <div id="google_Map"></div>
+        </section>
+
+        <section class="section" id="seccion5">
+            <h2>Responsive Tester</h2>
+                <form action="#" method="post" id="form" class="form">
+                    <input type="url" name="direction" id="input_url" class="input_url" required>
+                    <input type="text" name="w_width" id="" required>
+                    <input type="text" name="w_height" id="" required>
+                    <div class="btn-group">
+                        <input type="submit" id="btn_form1" name="btn_open" value="Open">
+                        <input type="button" id="btn_form2" name="btn_close" value="Close">
+                    </div>
+                </form>
+        </section>
+
+        <section class="section" id="seccion6">
+            <h2>User Agent</h2>
+           <div id="info_device"></div>
+        </section>
+
+        <section class="section" id="seccion7">
+            <h2>Detección del estado de la red</h2>
+        </section>
+
+        <section class="section" id="seccion8">
+            <h2>Webcam Detection</h2>
+            <video id="screen_caption"></video>
+        </section>
+
+        <section class="section" id="seccion9">
+            <h2>Geolocation</h2>
+            <video id="screen_caption"></video>
+        </section>
+
+        <button class="btn-panel hamburger hamburger--vortex" id="hamburger" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+
+        <aside class="panel" id="panel">
+            <nav class="menu">
+                <a href="#seccion1">Reloj Digital - Alarma Sonora</a>
+                <a href="#seccion2">Eventos del Teclado</a>
+                <a href="#seccion3">Cuenta Regresiva</a>
+                <a href="#seccion4">Responsible Responsive Design</a>
+                <a href="#seccion5">Responsive Tester</a>
+                <a href="#seccion6">User Agent</a>
+                <a href="#seccion7">Detección del estado de la red</a>
+                <a href="#seccion8"> Webcam Detection</a>  
+                <a href="#seccion9">Geolocation</a>             
+            </nav>
+        </aside>
+
+    </div>
+    <button class="scroll_btn hide_scroll">&#11014;</button>
+    <button class="btn_theme_dark">🌙</button>
+
+    <script src="./js/index_dom.js" type="module"></script>
+</body>
+</html>
