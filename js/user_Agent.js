@@ -38,7 +38,7 @@ export default function info_device(device_data){
     };
 
 
-    console.log(isDesktop.Linux())
+    //console.log(isDesktop.Linux())
 
     $info_user.innerHTML = `
     <ul>
@@ -54,7 +54,7 @@ export default function info_device(device_data){
     //Contenido especial:
 
     if(isDesktop.Linux())
-        console.log('Felicitaciones hoy en es aniversario LINUX.')
+        console.log('Contenido especial: Felicitaciones hoy en es aniversario LINUX.')
 
     //Redireccionar:
     
