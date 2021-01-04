@@ -10,6 +10,7 @@ import info_device from './user_Agent.js';
 import net_Status from './network_status.js';
 import Webcam_detection from './deteccion_webcam.js';
 import getGeolocation from './geolocation.js';
+import cardsFilter from './filtro_tarjetas.js';
 
 
 document.addEventListener('DOMContentLoaded', (e) =>
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', (e) =>
     info_device("info_device");
     Webcam_detection('screen_caption')
     getGeolocation('id_infolocation')
+    cardsFilter('.cards','inp_search')
 });
 
 document.addEventListener("keydown", (e) =>
