@@ -15,7 +15,7 @@ export default function getGeolocation(id){
         </ul>
 
         <hr>
-        <a href="https://www.google.com.do/maps/@${coords.latitude},${coords.longitude},20z" target="_blank" rel="noopener noreferrer">Click para ver en GOOGLE MAPS</a>
+        <a href="https://www.google.com.do/maps/@${coords.latitude},${coords.longitude},17z" target="_blank" rel="noopener noreferrer">Click para ver en GOOGLE MAPS</a>
         `;
     };
 

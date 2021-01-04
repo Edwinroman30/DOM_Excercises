@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', (e) =>
     menuHumburger('.btn-panel','.panel','.menu a');
     digitalClock('#activar_reloj','#reloj','#desactivar_reloj');
     Alarm('#activar_Alarma','#desactivar_Alarma','#audiotag');
-    regressiveCount('#regresiveClock','Nov 17, 2020 20:00:00','Nex to the exam POMA and ABI','Today is a great day 👌🎉');
+    regressiveCount('#regresiveClock','Jan 18, 2021 08:00:00','Return to the class :)','Today is a great day 👌🎉');
     scroll_T(".scroll_btn");
 
     Media_responsible(`#youtube`,
